@@ -39,8 +39,10 @@
 
 -(void)baseInit{
     NSBundle *containerBundle = [NSBundle bundleForClass:RGSColorSlider.class];
-
-    NSString *imagePath = [containerBundle pathForResource:@"colorTrack" ofType:@"png"];
+    NSString *path = [containerBundle pathForResource:@"RGSColorSlider" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    
+    NSString *imagePath = [bundle pathForResource:@"colorTrack" ofType:@"png"];
     NSURL *url = [NSURL fileURLWithPath:imagePath];
     NSData *data = [NSData dataWithContentsOfURL:url];
     
