@@ -22,6 +22,14 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "RGSColorSlider"
 ```
+
+## Using RGSColorSlider
+```objc
+-(IBAction)sliderDidChange:(RGSColorSlider *)sender{
+    self.colorView.backgroundColor = sender.color;
+}
+```
+
 ## Customization
 
 `RGSColorSlider` can be customized via the following @properties
