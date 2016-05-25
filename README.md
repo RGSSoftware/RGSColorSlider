@@ -24,7 +24,7 @@ pod "RGSColorSlider"
 ```
 ## Customization
 
-`RGSColorSlider` can be customized via the following @property
+`RGSColorSlider` can be customized via the following @properties
 
 ```objective-c
 @property (nonatomic, strong)UIColor *color;
