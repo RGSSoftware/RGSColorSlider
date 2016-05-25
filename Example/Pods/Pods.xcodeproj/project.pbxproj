@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000C78874F8B766F67F40B4986FD8945 /* RGSColorSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE8BDD8CCDA323B9F51D962AC1B53E /* RGSColorSlider-dummy.m */; };
+		177CFE742EE4604B41F1F0363B6BAF0A /* Pods-RGSColorSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F2584A3660837EC83DD1B033BFAA7E /* Pods-RGSColorSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DAC5A07CE0E3F864D383689702E778E /* colorTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = E616348C20914C885B0F0A31E7E0EE6B /* colorTrack.png */; };
+		2588D0087FFE702452636E539CFCA078 /* RGSPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F587C4F3D2A7CF4CF0007A34B6832BC /* RGSPreviewView.m */; };
+		592CDFB60946765BEB3A0BA2A0C40A1F /* RGSColorSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5BD9AB7D32D3C81FA6FA478CDDBC97 /* RGSColorSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69CDFD2075EC623A47B5C032C67B2BA4 /* Pods-RGSColorSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA199CC02A624FC713ADA87E84DC1695 /* Pods-RGSColorSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D034BBA4013CF5AF2F4B514928093B /* Pods-RGSColorSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97383CF7A5A7B04F21B1A0D6FDC02FC0 /* Pods-RGSColorSlider_Example-dummy.m */; };
+		A0E574C16073BE20700028EE47FCBD41 /* RGSPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = D2794CC6851B366C0D43960AED697BD4 /* RGSPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8829F11250400FC4D6339464720215F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AFEE32D10129555E5E24424E25665DC3 /* RGSColorSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0EE33E5BD48A74F1D401230A2E52E05 /* RGSColorSlider.bundle */; };
+		CC5E7EB3D2E4CBE573279533570B28AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DC9F617EB59B21F7D52BD10CFCC4A0DA /* RGSColorSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B56184881A3BBB3077F1597068D9AED5 /* RGSColorSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AE67597BA3A5CCD8A1FEE05694A270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F0E1456CB48E08B2A0FB0ED0D5B505A5 /* RGSColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B6F58915B08CC13D1487C86AF028D /* RGSColorSlider.m */; };
+		F2C4991DA890EBF94880F3FA0D6C0F90 /* Pods-RGSColorSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 759935F1C275ACBDC351036974DE7D84 /* Pods-RGSColorSlider_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FF73458B3BA1917439B6DF47CCBFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884669A90188EC819A67B6819972DE31;
+			remoteInfo = RGSColorSlider;
+		};
+		8AECA1EB00EBBA1C4656FB4E2D820753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FBA4A9964026C0C47B3E8E1212597C;
+			remoteInfo = "RGSColorSlider-RGSColorSlider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A61A10077E2F7C369472F50EA08157 /* Pods-RGSColorSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSColorSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1054BFAA7CC591DCD48688F85278D36B /* Pods-RGSColorSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSColorSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		11DE8BDD8CCDA323B9F51D962AC1B53E /* RGSColorSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGSColorSlider-dummy.m"; sourceTree = "<group>"; };
+		1A8F01BCDB91912D0A839B3974351ECA /* Pods-RGSColorSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSColorSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A4B900B2CACAC3F4985C523636B247E /* Pods-RGSColorSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSColorSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F9F5031B235960DE9F6CD62D57C9068 /* Pods-RGSColorSlider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSColorSlider_Example-resources.sh"; sourceTree = "<group>"; };
+		30B6592B30EFC95354B28B8B26F57D3D /* Pods-RGSColorSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSColorSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		32F5F25759D134B4DCBC7421E24CBF86 /* Pods-RGSColorSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSColorSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F587C4F3D2A7CF4CF0007A34B6832BC /* RGSPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RGSPreviewView.m; sourceTree = "<group>"; };
+		41B535C8FD462361A99259B40E6F3E01 /* RGSColorSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGSColorSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA5258D236B6428C8A3DB6768A62920 /* Pods-RGSColorSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSColorSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		596F8D0CE016CC8D6B12A17489420C42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60605354B4D0D6C670CF4DB5BD02E39B /* Pods_RGSColorSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSColorSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		644BB245CF1A396EFE33416C12A31D6D /* RGSColorSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGSColorSlider.xcconfig; sourceTree = "<group>"; };
+		6635007C4086F7B93104C9BC40B38E89 /* Pods-RGSColorSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RGSColorSlider_Tests.modulemap"; sourceTree = "<group>"; };
+		759935F1C275ACBDC351036974DE7D84 /* Pods-RGSColorSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSColorSlider_Tests-dummy.m"; sourceTree = "<group>"; };
+		848B6F58915B08CC13D1487C86AF028D /* RGSColorSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RGSColorSlider.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97383CF7A5A7B04F21B1A0D6FDC02FC0 /* Pods-RGSColorSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSColorSlider_Example-dummy.m"; sourceTree = "<group>"; };
+		9E87021BB4BFC075130168879413AEBE /* Pods-RGSColorSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSColorSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A0986DB6455F3F7542B41BAF11808126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EE33E5BD48A74F1D401230A2E52E05 /* RGSColorSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGSColorSlider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A363FC424706AAD20FAB89561D3E33F2 /* Pods-RGSColorSlider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSColorSlider_Tests-resources.sh"; sourceTree = "<group>"; };
+		A7CD41A7629E92768B4F6CDBA5656FC6 /* RGSColorSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSColorSlider-prefix.pch"; sourceTree = "<group>"; };
+		AC2C23AF7630D1284C0F32C7053354A1 /* Pods_RGSColorSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSColorSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B279D8612815CADF2D36DDAF0134704C /* Pods-RGSColorSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSColorSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B56184881A3BBB3077F1597068D9AED5 /* RGSColorSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSColorSlider-umbrella.h"; sourceTree = "<group>"; };
+		B5C5165B98CE98A4B12402F899E1EACA /* RGSColorSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RGSColorSlider.modulemap; sourceTree = "<group>"; };
+		B8F2584A3660837EC83DD1B033BFAA7E /* Pods-RGSColorSlider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSColorSlider_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA199CC02A624FC713ADA87E84DC1695 /* Pods-RGSColorSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSColorSlider_Example-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D18A9392291E29FAF35EE38ADB35CEDE /* Pods-RGSColorSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSColorSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2794CC6851B366C0D43960AED697BD4 /* RGSPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RGSPreviewView.h; sourceTree = "<group>"; };
+		DE5BD9AB7D32D3C81FA6FA478CDDBC97 /* RGSColorSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RGSColorSlider.h; sourceTree = "<group>"; };
+		DEFC01E7915C52032B2B4304479D22F4 /* ResourceBundle-RGSColorSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RGSColorSlider-Info.plist"; sourceTree = "<group>"; };
+		E616348C20914C885B0F0A31E7E0EE6B /* colorTrack.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = colorTrack.png; sourceTree = "<group>"; };
+		E6CFD24E94976EFAC76ED34FE4BB91B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90F109086239695E17A7A51C9C9EDB4 /* Pods-RGSColorSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RGSColorSlider_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CADA0301AA32512CB9D9FBE8E93DECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AE67597BA3A5CCD8A1FEE05694A270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC578EBDE665610EA9C10E0EAFADBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8829F11250400FC4D6339464720215F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8814A7E1841FB6F53F4EF338BC3FF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5E7EB3D2E4CBE573279533570B28AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C2FBAE4A9AF93804F1320BB3E49A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33425892BEE6F5EE95AF85CE1C50F00F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E36B3066600E11A8EDE005B4D95BE547 /* Pods-RGSColorSlider_Example */,
+				93855EAEEEF9B299B66FB4B6E84496C5 /* Pods-RGSColorSlider_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		34FF700CEE2076533E4330A169BC1A55 /* RGSColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				3DE312CD0995962B81FDF4FDEDD9654F /* Assets */,
+			);
+			path = RGSColorSlider;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3DE312CD0995962B81FDF4FDEDD9654F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E616348C20914C885B0F0A31E7E0EE6B /* colorTrack.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		759BCB8A0813E659D05499BB5D22FD46 /* RGSColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F5ABE2620D2C27FF2B51FC3D2ED14 /* Classes */,
+			);
+			path = RGSColorSlider;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EE4DEEDB81642B3580C9EB3A7AC83D07 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E3DCC3F6B2B5B6C338C396F988B262D1 /* Products */,
+				33425892BEE6F5EE95AF85CE1C50F00F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		934890FB315AC226D82F3100DC3DF0BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34FF700CEE2076533E4330A169BC1A55 /* RGSColorSlider */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93855EAEEEF9B299B66FB4B6E84496C5 /* Pods-RGSColorSlider_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0986DB6455F3F7542B41BAF11808126 /* Info.plist */,
+				6635007C4086F7B93104C9BC40B38E89 /* Pods-RGSColorSlider_Tests.modulemap */,
+				4BA5258D236B6428C8A3DB6768A62920 /* Pods-RGSColorSlider_Tests-acknowledgements.markdown */,
+				1A8F01BCDB91912D0A839B3974351ECA /* Pods-RGSColorSlider_Tests-acknowledgements.plist */,
+				759935F1C275ACBDC351036974DE7D84 /* Pods-RGSColorSlider_Tests-dummy.m */,
+				9E87021BB4BFC075130168879413AEBE /* Pods-RGSColorSlider_Tests-frameworks.sh */,
+				A363FC424706AAD20FAB89561D3E33F2 /* Pods-RGSColorSlider_Tests-resources.sh */,
+				B8F2584A3660837EC83DD1B033BFAA7E /* Pods-RGSColorSlider_Tests-umbrella.h */,
+				32F5F25759D134B4DCBC7421E24CBF86 /* Pods-RGSColorSlider_Tests.debug.xcconfig */,
+				1054BFAA7CC591DCD48688F85278D36B /* Pods-RGSColorSlider_Tests.release.xcconfig */,
+			);
+			name = "Pods-RGSColorSlider_Tests";
+			path = "Target Support Files/Pods-RGSColorSlider_Tests";
+			sourceTree = "<group>";
+		};
+		9B3F5ABE2620D2C27FF2B51FC3D2ED14 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE5BD9AB7D32D3C81FA6FA478CDDBC97 /* RGSColorSlider.h */,
+				848B6F58915B08CC13D1487C86AF028D /* RGSColorSlider.m */,
+				D2794CC6851B366C0D43960AED697BD4 /* RGSPreviewView.h */,
+				3F587C4F3D2A7CF4CF0007A34B6832BC /* RGSPreviewView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA84D3F694C7044E079A88F903819163 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				596F8D0CE016CC8D6B12A17489420C42 /* Info.plist */,
+				DEFC01E7915C52032B2B4304479D22F4 /* ResourceBundle-RGSColorSlider-Info.plist */,
+				B5C5165B98CE98A4B12402F899E1EACA /* RGSColorSlider.modulemap */,
+				644BB245CF1A396EFE33416C12A31D6D /* RGSColorSlider.xcconfig */,
+				11DE8BDD8CCDA323B9F51D962AC1B53E /* RGSColorSlider-dummy.m */,
+				A7CD41A7629E92768B4F6CDBA5656FC6 /* RGSColorSlider-prefix.pch */,
+				B56184881A3BBB3077F1597068D9AED5 /* RGSColorSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RGSColorSlider";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCCDF1D490ACD1457321524C65A9E63A /* RGSColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				934890FB315AC226D82F3100DC3DF0BA /* Resources */,
+				759BCB8A0813E659D05499BB5D22FD46 /* RGSColorSlider */,
+				BA84D3F694C7044E079A88F903819163 /* Support Files */,
+			);
+			name = RGSColorSlider;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E36B3066600E11A8EDE005B4D95BE547 /* Pods-RGSColorSlider_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFD24E94976EFAC76ED34FE4BB91B7 /* Info.plist */,
+				E90F109086239695E17A7A51C9C9EDB4 /* Pods-RGSColorSlider_Example.modulemap */,
+				B279D8612815CADF2D36DDAF0134704C /* Pods-RGSColorSlider_Example-acknowledgements.markdown */,
+				2A4B900B2CACAC3F4985C523636B247E /* Pods-RGSColorSlider_Example-acknowledgements.plist */,
+				97383CF7A5A7B04F21B1A0D6FDC02FC0 /* Pods-RGSColorSlider_Example-dummy.m */,
+				07A61A10077E2F7C369472F50EA08157 /* Pods-RGSColorSlider_Example-frameworks.sh */,
+				2F9F5031B235960DE9F6CD62D57C9068 /* Pods-RGSColorSlider_Example-resources.sh */,
+				BA199CC02A624FC713ADA87E84DC1695 /* Pods-RGSColorSlider_Example-umbrella.h */,
+				D18A9392291E29FAF35EE38ADB35CEDE /* Pods-RGSColorSlider_Example.debug.xcconfig */,
+				30B6592B30EFC95354B28B8B26F57D3D /* Pods-RGSColorSlider_Example.release.xcconfig */,
+			);
+			name = "Pods-RGSColorSlider_Example";
+			path = "Target Support Files/Pods-RGSColorSlider_Example";
+			sourceTree = "<group>";
+		};
+		E3DCC3F6B2B5B6C338C396F988B262D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60605354B4D0D6C670CF4DB5BD02E39B /* Pods_RGSColorSlider_Example.framework */,
+				AC2C23AF7630D1284C0F32C7053354A1 /* Pods_RGSColorSlider_Tests.framework */,
+				A0EE33E5BD48A74F1D401230A2E52E05 /* RGSColorSlider.bundle */,
+				41B535C8FD462361A99259B40E6F3E01 /* RGSColorSlider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4DEEDB81642B3580C9EB3A7AC83D07 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCCDF1D490ACD1457321524C65A9E63A /* RGSColorSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F1E0C98E0A12BD77568FC19B5B69853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CFE742EE4604B41F1F0363B6BAF0A /* Pods-RGSColorSlider_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9092AF7739A4D6DF4B6B4C4BBACD51F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CDFD2075EC623A47B5C032C67B2BA4 /* Pods-RGSColorSlider_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00A03DAA57F8B49A8C4F547A8D8BCE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9F617EB59B21F7D52BD10CFCC4A0DA /* RGSColorSlider-umbrella.h in Headers */,
+				592CDFB60946765BEB3A0BA2A0C40A1F /* RGSColorSlider.h in Headers */,
+				A0E574C16073BE20700028EE47FCBD41 /* RGSPreviewView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09FBA4A9964026C0C47B3E8E1212597C /* RGSColorSlider-RGSColorSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD15596EA66C9FFC651263E9E1CEE6A /* Build configuration list for PBXNativeTarget "RGSColorSlider-RGSColorSlider" */;
+			buildPhases = (
+				6597FD5252ED2C7497D2F04D8E4FE81B /* Sources */,
+				C0C2FBAE4A9AF93804F1320BB3E49A6E /* Frameworks */,
+				4AB89258F6C433731300B17CD4CAA7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RGSColorSlider-RGSColorSlider";
+			productName = "RGSColorSlider-RGSColorSlider";
+			productReference = A0EE33E5BD48A74F1D401230A2E52E05 /* RGSColorSlider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2CD0FD21C7EE43093C6F5EAA40B76347 /* Pods-RGSColorSlider_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623B7C7D75D3E2C648523868935ECD02 /* Build configuration list for PBXNativeTarget "Pods-RGSColorSlider_Tests" */;
+			buildPhases = (
+				6254846BF33131ED49377C62AF142855 /* Sources */,
+				B8814A7E1841FB6F53F4EF338BC3FF72 /* Frameworks */,
+				2F1E0C98E0A12BD77568FC19B5B69853 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RGSColorSlider_Tests";
+			productName = "Pods-RGSColorSlider_Tests";
+			productReference = AC2C23AF7630D1284C0F32C7053354A1 /* Pods_RGSColorSlider_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		884669A90188EC819A67B6819972DE31 /* RGSColorSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6059F77B88D30BD0FB9531EB63520D /* Build configuration list for PBXNativeTarget "RGSColorSlider" */;
+			buildPhases = (
+				C730F1679D2BBC8E63058D08965B816F /* Sources */,
+				4CC578EBDE665610EA9C10E0EAFADBB8 /* Frameworks */,
+				A7EC69DBFEE43AD1E68F20109AD5355A /* Resources */,
+				E00A03DAA57F8B49A8C4F547A8D8BCE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8000FD4D9440259D6B61131C9B597B3A /* PBXTargetDependency */,
+			);
+			name = RGSColorSlider;
+			productName = RGSColorSlider;
+			productReference = 41B535C8FD462361A99259B40E6F3E01 /* RGSColorSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		944AC71FAB2415D8FEF0F91FC8E84BA2 /* Pods-RGSColorSlider_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0905E8044DACBDA09358C827E33C048 /* Build configuration list for PBXNativeTarget "Pods-RGSColorSlider_Example" */;
+			buildPhases = (
+				B36116D3092BBAB8C8EF3C8B29C9B823 /* Sources */,
+				2CADA0301AA32512CB9D9FBE8E93DECD /* Frameworks */,
+				9092AF7739A4D6DF4B6B4C4BBACD51F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2FEC0D479A206AD1A746C18A223EED /* PBXTargetDependency */,
+			);
+			name = "Pods-RGSColorSlider_Example";
+			productName = "Pods-RGSColorSlider_Example";
+			productReference = 60605354B4D0D6C670CF4DB5BD02E39B /* Pods_RGSColorSlider_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E3DCC3F6B2B5B6C338C396F988B262D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944AC71FAB2415D8FEF0F91FC8E84BA2 /* Pods-RGSColorSlider_Example */,
+				2CD0FD21C7EE43093C6F5EAA40B76347 /* Pods-RGSColorSlider_Tests */,
+				884669A90188EC819A67B6819972DE31 /* RGSColorSlider */,
+				09FBA4A9964026C0C47B3E8E1212597C /* RGSColorSlider-RGSColorSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB89258F6C433731300B17CD4CAA7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAC5A07CE0E3F864D383689702E778E /* colorTrack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EC69DBFEE43AD1E68F20109AD5355A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEE32D10129555E5E24424E25665DC3 /* RGSColorSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6254846BF33131ED49377C62AF142855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C4991DA890EBF94880F3FA0D6C0F90 /* Pods-RGSColorSlider_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597FD5252ED2C7497D2F04D8E4FE81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36116D3092BBAB8C8EF3C8B29C9B823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D034BBA4013CF5AF2F4B514928093B /* Pods-RGSColorSlider_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C730F1679D2BBC8E63058D08965B816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000C78874F8B766F67F40B4986FD8945 /* RGSColorSlider-dummy.m in Sources */,
+				F0E1456CB48E08B2A0FB0ED0D5B505A5 /* RGSColorSlider.m in Sources */,
+				2588D0087FFE702452636E539CFCA078 /* RGSPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E2FEC0D479A206AD1A746C18A223EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RGSColorSlider;
+			target = 884669A90188EC819A67B6819972DE31 /* RGSColorSlider */;
+			targetProxy = 28FF73458B3BA1917439B6DF47CCBFC2 /* PBXContainerItemProxy */;
+		};
+		8000FD4D9440259D6B61131C9B597B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RGSColorSlider-RGSColorSlider";
+			target = 09FBA4A9964026C0C47B3E8E1212597C /* RGSColorSlider-RGSColorSlider */;
+			targetProxy = 8AECA1EB00EBBA1C4656FB4E2D820753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A79613DB71B9541BB5188E4EE78A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B6592B30EFC95354B28B8B26F57D3D /* Pods-RGSColorSlider_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSColorSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSColorSlider_Example/Pods-RGSColorSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSColorSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503AFAAE5ED7A4F7B9A0C5520466CC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644BB245CF1A396EFE33416C12A31D6D /* RGSColorSlider.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RGSColorSlider";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RGSColorSlider/ResourceBundle-RGSColorSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RGSColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5A1AA54DA28791F1C491012045F6B2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F5F25759D134B4DCBC7421E24CBF86 /* Pods-RGSColorSlider_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSColorSlider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSColorSlider_Tests/Pods-RGSColorSlider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSColorSlider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		638277608C7D796CB3CCA168C1AAE09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1054BFAA7CC591DCD48688F85278D36B /* Pods-RGSColorSlider_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSColorSlider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSColorSlider_Tests/Pods-RGSColorSlider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSColorSlider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98BCEA086BDD9C310764DA3AFAE7F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18A9392291E29FAF35EE38ADB35CEDE /* Pods-RGSColorSlider_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSColorSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSColorSlider_Example/Pods-RGSColorSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSColorSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B49EF579A7D2DF83946EDB4CAA94D0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644BB245CF1A396EFE33416C12A31D6D /* RGSColorSlider.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RGSColorSlider";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RGSColorSlider/ResourceBundle-RGSColorSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RGSColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BD1725CFB607E4911677ED10F3443BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644BB245CF1A396EFE33416C12A31D6D /* RGSColorSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RGSColorSlider/RGSColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSColorSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSColorSlider/RGSColorSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RGSColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D895449E0C5518792573B5337ADF25B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644BB245CF1A396EFE33416C12A31D6D /* RGSColorSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RGSColorSlider/RGSColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSColorSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSColorSlider/RGSColorSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RGSColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623B7C7D75D3E2C648523868935ECD02 /* Build configuration list for PBXNativeTarget "Pods-RGSColorSlider_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1AA54DA28791F1C491012045F6B2E3 /* Debug */,
+				638277608C7D796CB3CCA168C1AAE09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0905E8044DACBDA09358C827E33C048 /* Build configuration list for PBXNativeTarget "Pods-RGSColorSlider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BCEA086BDD9C310764DA3AFAE7F213 /* Debug */,
+				00A79613DB71B9541BB5188E4EE78A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD15596EA66C9FFC651263E9E1CEE6A /* Build configuration list for PBXNativeTarget "RGSColorSlider-RGSColorSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503AFAAE5ED7A4F7B9A0C5520466CC89 /* Debug */,
+				B49EF579A7D2DF83946EDB4CAA94D0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6059F77B88D30BD0FB9531EB63520D /* Build configuration list for PBXNativeTarget "RGSColorSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1725CFB607E4911677ED10F3443BBB /* Debug */,
+				D895449E0C5518792573B5337ADF25B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

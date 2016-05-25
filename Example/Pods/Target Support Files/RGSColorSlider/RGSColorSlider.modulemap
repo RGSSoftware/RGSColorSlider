@@ -1,0 +1,6 @@
+framework module RGSColorSlider {
+  umbrella header "RGSColorSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

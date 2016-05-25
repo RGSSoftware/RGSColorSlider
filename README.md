@@ -1,6 +1,5 @@
 # RGSColorSlider
 
-[![CI Status](http://img.shields.io/travis/Randel Smith/RGSColorSlider.svg?style=flat)](https://travis-ci.org/Randel Smith/RGSColorSlider)
 [![Version](https://img.shields.io/cocoapods/v/RGSColorSlider.svg?style=flat)](http://cocoapods.org/pods/RGSColorSlider)
 [![License](https://img.shields.io/cocoapods/l/RGSColorSlider.svg?style=flat)](http://cocoapods.org/pods/RGSColorSlider)
 [![Platform](https://img.shields.io/cocoapods/p/RGSColorSlider.svg?style=flat)](http://cocoapods.org/pods/RGSColorSlider)
@@ -19,10 +18,25 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "RGSColorSlider"
 ```
+## Customization
 
-## Author
+`RGSColorSlider` can be customized via the following @property
 
-Randel Smith, homankids@gmail.com
+```objective-c
+@property (nonatomic, strong)UIColor *color;
+
+@property (nonatomic)int previewOffset; //negative moves up, positive moves down
+@property (nonatomic)BOOL showPreview;
+
+@property (nonatomic, )float previewAppearAnimateDuration;
+@property (nonatomic, )float previewDismissAnimateDuration;
+
+@property (nonatomic)int colorTrackHeight;
+```
+
+##Limitation
+
+RGSColorSlider only supports hue, therefor it doesn't support saturation and brightness viewing or picking.
 
 ## License
 

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +17,36 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iHj-eX-Hrx" customClass="RGSColorSlider">
+                                <rect key="frame" x="18" y="285" width="564" height="31"/>
+                                <connections>
+                                    <action selector="sliderDidChange:" destination="whP-gf-Uak" eventType="valueChanged" id="03D-1u-Xcy"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTE-Za-2Zt">
+                                <rect key="frame" x="180" y="28" width="240" height="71"/>
+                                <color key="backgroundColor" red="0.0" green="0.46715324679906178" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="MWD-aQ-mL2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uTE-Za-2Zt" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="0An-FE-tNL"/>
+                            <constraint firstItem="uTE-Za-2Zt" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="17O-vk-zwS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uTE-Za-2Zt" secondAttribute="trailing" id="1WY-TH-w0Y"/>
+                            <constraint firstItem="iHj-eX-Hrx" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="4eF-qd-5Dm"/>
+                            <constraint firstItem="iHj-eX-Hrx" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="8km-R5-NPb"/>
+                            <constraint firstItem="iHj-eX-Hrx" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Lyv-GI-X3Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iHj-eX-Hrx" secondAttribute="trailing" id="QfD-Yd-Wqs"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="colorSlider" destination="iHj-eX-Hrx" id="5AP-q9-PaX"/>
+                        <outlet property="colorView" destination="uTE-Za-2Zt" id="EjE-xC-9a8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

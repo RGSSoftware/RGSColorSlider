@@ -1,0 +1,16 @@
+PODS:
+  - RGSColorSlider (0.1.0)
+
+DEPENDENCIES:
+  - RGSColorSlider (from `../`)
+
+EXTERNAL SOURCES:
+  RGSColorSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RGSColorSlider: df59059050de9326931caeabc28e043964cb0ab9
+
+PODFILE CHECKSUM: 914126d7f2c8a77a15bb717345b2dc9c99f87c8d
+
+COCOAPODS: 1.0.0

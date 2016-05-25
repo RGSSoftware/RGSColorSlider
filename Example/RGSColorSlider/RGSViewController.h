@@ -7,7 +7,12 @@
 //
 
 @import UIKit;
+#import <RGSColorSlider/RGSColorSlider.h>
 
 @interface RGSViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *colorView;
+@property (weak, nonatomic) IBOutlet RGSColorSlider *colorSlider;
+
+- (IBAction)sliderDidChange:(RGSColorSlider *)sender;
 @end
