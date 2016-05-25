@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/RGSColorSlider.svg?style=flat)](http://cocoapods.org/pods/RGSColorSlider)
 [![Platform](https://img.shields.io/cocoapods/p/RGSColorSlider.svg?style=flat)](http://cocoapods.org/pods/RGSColorSlider)
 
+A simple color slider for iOS.
+
+<img src="https://github.com/RGSSoftware/RGSColorSlider/blob/master/screenshots/screenshot.gif" alt="iPhone 5" width="396" />
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

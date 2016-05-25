@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A simple color slider for iOS.'
   s.description      = <<-DESC
-                        A simple, reusable radial gradient view for iOS.
+                        A simple, reusable color slider for iOS.
                        DESC
 
   s.homepage         = 'https://github.com/RGSColorSlider/RGSColorSlider'
