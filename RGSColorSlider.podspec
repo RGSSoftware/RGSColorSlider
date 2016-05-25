@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
                         A simple, reusable color slider for iOS.
                        DESC
 
-  s.homepage         = 'https://github.com/RGSColorSlider/RGSColorSlider'
+  s.homepage         = 'https://github.com/RGSSoftware/RGSColorSlider'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Randel Smith' => 'rs@randelsmith.com' }
-  s.source           = { :git => 'https://github.com/RGSColorSlider/RGSColorSlider.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RGSSoftware/RGSColorSlider.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
