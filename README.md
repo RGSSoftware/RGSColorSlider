@@ -1,3 +1,7 @@
+<a href="https://github.com/RGSSoftware/HireMe">
+  <img src="https://github.com/RGSSoftware/HireMe/blob/master/HireMeBanner.png" >
+</a>
+
 # RGSColorSlider
 
 [![Version](https://img.shields.io/cocoapods/v/RGSColorSlider.svg?style=flat)](http://cocoapods.org/pods/RGSColorSlider)
